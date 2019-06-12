@@ -1,0 +1,9 @@
+[package]
+name = "server"
+version = "0.1.0"
+authors = ["Takashi IIGUNI <ad2314ce71926@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+fifoconfig = { path = "../fifoconfig" }
+nix = "*"
